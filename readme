@@ -1,0 +1,4 @@
+El código presentado ayuda a los ceramistas a preparar sus recetas de esmaltes.
+Mediante la solicitud de datos como la cantidad de elementos, los porcentajes de cada uno dentro de la receta y el total que el ceramista quiera preparar, se calculan las cantidades necesarias.
+
+*** Aclaración *** En esta instancia se calculan los porcentajes teniendo como 100% el peso total que el ceramista quiere preparar. Sin embargo, aquellas recetas en donde la sumatoria de los porcentajes de todos los elementos superen el 100%, terminan teniendo como resultado un mayor peso final que el especificado por el usuario. Estuve investigando y no encontré una forma sin utilizar arrays de ir sumando los porcentajes de los diferentes elementos para tenerlos como 100%. Este aspecto se solucionará en la próxima entrega.
