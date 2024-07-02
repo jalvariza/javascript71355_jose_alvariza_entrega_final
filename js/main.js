@@ -1,35 +1,3 @@
-// let nombreEsmalte = prompt('¡Hola!, te ayudaré a preparar la fórmula para tu esmalte cerámico. Ingresa el Nombre de tu esmalte');
-
-//let totalEsmalte = parseInt(prompt('¿Cuántos kilos de esmalte necesitas preparar?'));
-//if (isNaN(totalEsmalte)) {
-//    alert('Debes ingresar un número')
-//    } else if (totalEsmalte <= 0) {
-//        alert('Debes de ingresar una cantidad mayor a 0kg');
-//    }
-
-//console.log(`Estas son las cantidades que necesitas para preparar ${totalEsmalte}kg de esmalte ${nombreEsmalte}:`);
-
-//let cantidadElementos = parseInt(prompt('¿Cuántos elementos tiene tu esmalte?'));
-//let x = 1;
-//while(x <= cantidadElementos){
-//  let elemento = prompt('Ingrese el nombre del Elemento');
-//  let porcentaje = parseInt (prompt('Ingrese el porcentaje del Elemento'));
-//  console.log(`${elemento} (%${porcentaje}): `((${totalEsmalte} / 100) * ${porcentaje})`k`);
-//  x++;
-//  if (isNaN(porcentaje)) {
-//   alert('Debes ingresar un número')
-//    } else if (porcentaje <= 0) {
-//       alert('Debes de ingresar un número mayor a 0');
-//   } 
-//}
-
-//if (isNaN(cantidadElementos)) {
-//    alert('Debes ingresar un número')
-//   } else if (cantidadElementos <= 1) {
-//        alert('Debes de ingresar al menos 2 elementos');
-//    } 
-
-
 function calcularCantidad(totalEsmalte, porcentaje) {
     return (totalEsmalte / 100) * porcentaje;
 }
