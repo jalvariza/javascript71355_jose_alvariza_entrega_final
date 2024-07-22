@@ -1,4 +1,7 @@
 El código presentado ayuda a los ceramistas a preparar sus recetas de esmaltes.
-Mediante la solicitud de datos como la cantidad de elementos, los porcentajes de cada uno dentro de la receta y el total que el ceramista quiera preparar, se calculan las cantidades necesarias.
+Mediante la solicitud de datos como la cantidad de elementos, los nombres y porcentajes de cada uno dentro de la receta y el total de producto que el ceramista quiera preparar, por un lado, se calculan las cantidades necesarias de cada elemento para preparar la cantidad específica, se las ordena de mayor a menor y las muestra en consola, por otro lado, se pasa en limpio la receta y se la ordena en forma de tablas.
 
-*** Aclaración *** En esta instancia se calculan los porcentajes teniendo como 100% el peso total que el ceramista quiere preparar. Sin embargo, aquellas recetas en donde la sumatoria de los porcentajes de todos los elementos superen el 100%, terminan teniendo como resultado un mayor peso final que el especificado por el usuario. Estuve investigando y no encontré una forma sin utilizar arrays de ir sumando los porcentajes de los diferentes elementos para tenerlos como 100%. Este aspecto se solucionará en la próxima entrega.
+
+***/Para obtener la sumatoria de los porcentajes de cada elemento utilicé reduce en vez de forEach por la longitud del código. Si bien funcionan los dos métodos, no tengo claro cuál es la mejor opción/*** 
+
+***/A la hora de mostrar las recetas de los esmaltes ingresados en la consola en formato de tabla (creo que queda mas prolijo) tuve que ingresar un forEach ya que al ser un arrays con arrays dentro sólo me mostraba el primer nivel del array/*** 
