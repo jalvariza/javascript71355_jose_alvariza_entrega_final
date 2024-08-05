@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esmalte - Calculadora Cerámica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/style.css">
+</head>
+
+<body>
+    <div class="title">
+        <img id="imagenEsmalte" src="" alt="Imagen del esmalte">
+        <h1 id="nombreEsmalte"></h1>
+    </div>
+    <div class="gramosPreparar">
+        <input class="cantidadEsmalte" type="number" placeholder="Ingresa la cantidad de esmalte gramos a preparar ">
+        <button id="calcular" class="btnSecondary">Calcular</button>
+    </div>
+    <hr>
+    <div id="detallesComponente"></div>
+    <hr>
+    <a href="./misesmaltes.html">
+        <p class="btnTertiary">Mis esmaltes</p>
+    </a>
+
+    <a href="../index.html">
+        <p class="btnTertiary">Inicio</p>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../resources/js/esmalte.js"></script>
+</body>
+
+</html>

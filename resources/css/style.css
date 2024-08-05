@@ -1,0 +1,201 @@
+/*COLORS*/
+/*TIPOGRAPHY*/
+a {
+  text-decoration: none;
+  color: #1D1918;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #1D1918;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #1D1918;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #1D1918;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F9F4E7;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F1D777;
+  border-radius: 0px 0px 24px 24px;
+  padding: 4rem 1rem 1rem 1rem;
+  margin-bottom: 2rem;
+  row-gap: 1rem;
+}
+.title .img {
+  width: 120px;
+  border: 1px solid #1D1918;
+  border-radius: 120px;
+}
+
+.buttonsIndex {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 1rem;
+  row-gap: 2rem;
+}
+
+.btnPrimary {
+  background-color: #9EAA6C;
+  padding: 24px;
+  border-radius: 100px;
+  border: 1px solid #1D1918;
+}
+
+.btnSecondary {
+  background-color: #ECBBD9;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #1D1918;
+}
+
+.btnTertiary {
+  background-color: #F9F4E7;
+  width: fit-content;
+  padding: 4px 8px 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #1D1918;
+  margin: 1rem;
+}
+
+.btnEliminar {
+  background-color: #ECBBD9;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #1D1918;
+}
+
+.cardEsmalte {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  background-color: #ECE7DB;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #1D1918;
+  border-radius: 1.5rem;
+  column-gap: 1rem;
+}
+.cardEsmalte img {
+  border: 1px solid #1D1918;
+  border-radius: 8px;
+  height: 100%;
+}
+.cardEsmalte .tituloCard {
+  width: 100%;
+}
+
+input {
+  background-color: #ECE7DB;
+  padding: 0.5rem;
+  border: 1px solid #1D1918;
+  border-radius: 100px;
+}
+
+.encabezadonuevoesmalte {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  column-gap: 0.5rem;
+}
+.encabezadonuevoesmalte .nombreEsmalte {
+  width: 80%;
+  height: auto;
+  background-color: #B9CAE8;
+}
+
+#componentes {
+  padding: 1rem;
+}
+
+.componente {
+  display: flex;
+  column-gap: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.componente .nombreComponente {
+  width: 80%;
+}
+.componente .porcentajeComponente {
+  width: 20%;
+  text-align: center;
+}
+
+.bottomButtons {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.cardComponente {
+  display: flex;
+  margin: 1rem;
+  column-gap: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.cardComponente .porcentajeNombre {
+  width: 80%;
+  background-color: #F1D777;
+  padding: 0.5rem;
+  border: 1px solid #1D1918;
+  border-radius: 100px;
+}
+.cardComponente .cantidadComponente {
+  width: 20%;
+  text-align: center;
+  background-color: #B9CAE8;
+  padding: 0.5rem;
+  border: 1px solid #1D1918;
+  border-radius: 100px;
+}
+
+.gramosPreparar {
+  display: flex;
+  margin: 1rem;
+  column-gap: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.gramosPreparar .cantidadEsmalte {
+  width: 80%;
+  padding: 0.5rem;
+  border: 1px solid #1D1918;
+  border-radius: 100px;
+}
+.gramosPreparar #calcular {
+  width: 20%;
+  padding: 0.5rem;
+  border: 1px solid #1D1918;
+  border-radius: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

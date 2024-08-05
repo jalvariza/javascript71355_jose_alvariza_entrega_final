@@ -1,0 +1,39 @@
+/*COLORS*/
+
+$bg: #F9F4E7;
+$bg2: #ECE7DB;
+$black: #1D1918;
+$yellow: #F1D777;
+$pink: #ECBBD9;
+$green: #9EAA6C;
+$blue: #B9CAE8;
+
+/*TIPOGRAPHY*/
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $black;
+}
+  
+h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: $black;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: $black;
+}
+
+
