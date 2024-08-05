@@ -1,7 +1,5 @@
-El código presentado ayuda a los ceramistas a preparar sus recetas de esmaltes.
-Mediante la solicitud de datos como la cantidad de elementos, los nombres y porcentajes de cada uno dentro de la receta y el total de producto que el ceramista quiera preparar, por un lado, se calculan las cantidades necesarias de cada elemento para preparar la cantidad específica, se las ordena de mayor a menor y las muestra en consola, por otro lado, se pasa en limpio la receta y se la ordena en forma de tablas.
+El código presentado ayuda a los ceramistas a preparar sus recetas de esmaltes, facilita una tarea repetitiva y tediosa.
+Mediante la solicitud de datos como los nombres de los componentes y sus porcentajes dentro de la receta mâ el total de producto que el ceramista quiera preparar, se calculan las cantidades necesarias de cada elemento para preparar la cantidad específica.
 
 
-***/Para obtener la sumatoria de los porcentajes de cada elemento utilicé reduce en vez de forEach por la longitud del código. Si bien funcionan los dos métodos, no tengo claro cuál es la mejor opción/*** 
-
-***/A la hora de mostrar las recetas de los esmaltes ingresados en la consola en formato de tabla (creo que queda mas prolijo) tuve que ingresar un forEach ya que al ser un arrays con arrays dentro sólo me mostraba el primer nivel del array/*** 
+***/Para la carga de la imagen del esmalte pude llegar a esa opción, no me queda claro si es la opción mas optima/***
