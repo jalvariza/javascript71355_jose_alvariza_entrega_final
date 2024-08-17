@@ -1,5 +1,3 @@
 El código presentado ayuda a los ceramistas a preparar sus recetas de esmaltes, facilita una tarea repetitiva y tediosa.
-Mediante la solicitud de datos como los nombres de los componentes y sus porcentajes dentro de la receta mâ el total de producto que el ceramista quiera preparar, se calculan las cantidades necesarias de cada elemento para preparar la cantidad específica.
+Mediante la solicitud de datos como los nombres de los componentes y sus porcentajes dentro de la receta, más el total de producto que el ceramista quiera preparar, se calculan las cantidades necesarias de cada elemento para preparar la cantidad específica.
 
-
-***/Para la carga de la imagen del esmalte pude llegar a esa opción, no me queda claro si es la opción mas optima/***
