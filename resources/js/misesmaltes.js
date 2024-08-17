@@ -1,4 +1,4 @@
-// Toma el arrays esmaltes desde el localStorage y muestra cada objeto esmalte en una nueva card.
+// Toma el array esmaltes desde el localStorage y muestra cada objeto esmalte en una nueva card. Aquí el usuario tiene la posibilidad de eliminar el esmalte del array.
 
 let esmaltes = JSON.parse(localStorage.getItem('esmaltes')) || [];
 

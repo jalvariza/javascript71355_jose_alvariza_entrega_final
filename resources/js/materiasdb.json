@@ -1,0 +1,185 @@
+{
+    "materias": [
+      {
+        "nombreMateria": "Óxido de Aluminio (Alúmina)",
+        "formulaMateria": "Al₂O₃",
+        "pesoMolecular": 101.96
+      },
+      {
+        "nombreMateria": "Óxido de Calcio",
+        "formulaMateria": "CaO",
+        "pesoMolecular": 56.08
+      },
+      {
+        "nombreMateria": "Óxido de Magnesio",
+        "formulaMateria": "MgO",
+        "pesoMolecular": 40.30
+      },
+      {
+        "nombreMateria": "Sílice (Dióxido de Silicio)",
+        "formulaMateria": "SiO₂",
+        "pesoMolecular": 60.08
+      },
+      {
+        "nombreMateria": "Óxido de Hierro (III)",
+        "formulaMateria": "Fe₂O₃",
+        "pesoMolecular": 159.69
+      },
+      {
+        "nombreMateria": "Óxido de Cobalto",
+        "formulaMateria": "CoO",
+        "pesoMolecular": 74.93
+      },
+      {
+        "nombreMateria": "Óxido de Cromo (III)",
+        "formulaMateria": "Cr₂O₃",
+        "pesoMolecular": 151.99
+      },
+      {
+        "nombreMateria": "Óxido de Zinc",
+        "formulaMateria": "ZnO",
+        "pesoMolecular": 81.38
+      },
+      {
+        "nombreMateria": "Talco",
+        "formulaMateria": "Mg₃Si₄O₁₀(OH)₂",
+        "pesoMolecular": 379.26
+      },
+      {
+        "nombreMateria": "Feldespato Potásico",
+        "formulaMateria": "KAlSi₃O₈",
+        "pesoMolecular": 278.33
+      },
+      {
+        "nombreMateria": "Feldespato Sódico",
+        "formulaMateria": "NaAlSi₃O₈",
+        "pesoMolecular": 262.23
+      },
+      {
+        "nombreMateria": "Caolín",
+        "formulaMateria": "Al₂Si₂O₅(OH)₄",
+        "pesoMolecular": 258.16
+      },
+      {
+        "nombreMateria": "Calcita (Carbonato de Calcio)",
+        "formulaMateria": "CaCO₃",
+        "pesoMolecular": 100.09
+      },
+      {
+        "nombreMateria": "Carbonato de Sodio",
+        "formulaMateria": "Na₂CO₃",
+        "pesoMolecular": 105.99
+      },
+      {
+        "nombreMateria": "Óxido de Hierro Rojo (Hematita)",
+        "formulaMateria": "Fe₂O₃",
+        "pesoMolecular": 159.69
+      },
+      {
+        "nombreMateria": "Óxido de Hierro Amarillo (Limonita)",
+        "formulaMateria": "FeO(OH)",
+        "pesoMolecular": 88.85
+      },
+      {
+        "nombreMateria": "Carbonato de Cobalto",
+        "formulaMateria": "CoCO₃",
+        "pesoMolecular": 118.94
+      },
+      {
+        "nombreMateria": "Carbonato de Calcio",
+        "formulaMateria": "CaCO₃",
+        "pesoMolecular": 100.09
+      },
+      {
+        "nombreMateria": "Carbonato de Magnesio",
+        "formulaMateria": "MgCO₃",
+        "pesoMolecular": 84.31
+      },
+      {
+        "nombreMateria": "Óxido de Plomo (II)",
+        "formulaMateria": "PbO",
+        "pesoMolecular": 223.20
+      },
+      {
+        "nombreMateria": "Óxido de Bario",
+        "formulaMateria": "BaO",
+        "pesoMolecular": 153.33
+      },
+      {
+        "nombreMateria": "Óxido de Estroncio",
+        "formulaMateria": "SrO",
+        "pesoMolecular": 103.62
+      },
+      {
+        "nombreMateria": "Óxido de Cobre (I)",
+        "formulaMateria": "Cu₂O",
+        "pesoMolecular": 143.09
+      },
+      {
+        "nombreMateria": "Óxido de Cobre (II)",
+        "formulaMateria": "CuO",
+        "pesoMolecular": 79.55
+      },
+      {
+        "nombreMateria": "Carbonato de Cobre (II)",
+        "formulaMateria": "CuCO₃",
+        "pesoMolecular": 123.55
+      },
+      {
+        "nombreMateria": "Óxido de Manganeso (IV)",
+        "formulaMateria": "MnO₂",
+        "pesoMolecular": 86.94
+      },
+      {
+        "nombreMateria": "Óxido de Manganeso (II)",
+        "formulaMateria": "MnO",
+        "pesoMolecular": 70.94
+      },
+      {
+        "nombreMateria": "Borato de Sodio",
+        "formulaMateria": "Na₂B₄O₇·10H₂O",
+        "pesoMolecular": 381.37
+      },
+      {
+        "nombreMateria": "Fluoruro de Calcio",
+        "formulaMateria": "CaF₂",
+        "pesoMolecular": 78.08
+      },
+      {
+        "nombreMateria": "Óxido de Circonio",
+        "formulaMateria": "ZrO₂",
+        "pesoMolecular": 123.22
+      },
+      {
+        "nombreMateria": "Bentonita",
+        "formulaMateria": "(Na,Ca)₀.₃₃(Al,Mg)₂Si₄O₁₀(OH)₂·nH₂O",
+        "pesoMolecular": 548.00
+      },
+      {
+        "nombreMateria": "Óxido de Titanio (IV)",
+        "formulaMateria": "TiO₂",
+        "pesoMolecular": 79.87
+      },
+      {
+        "nombreMateria": "Cuarzo (Sílice)",
+        "formulaMateria": "SiO₂",
+        "pesoMolecular": 60.08
+      },
+      {
+        "nombreMateria": "Óxido de Cobalto (II)",
+        "formulaMateria": "CoO",
+        "pesoMolecular": 74.93
+      },
+      {
+        "nombreMateria": "Óxido de Manganeso (III)",
+        "formulaMateria": "Mn₂O₃",
+        "pesoMolecular": 157.87
+      },
+      {
+        "nombreMateria": "Óxido de Níquel (II)",
+        "formulaMateria": "NiO",
+        "pesoMolecular": 74.69
+      }
+    ]
+  }
+  

@@ -7,6 +7,7 @@ a {
 
 p {
   font-family: "Lato", sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   font-style: normal;
   color: #1D1918;
@@ -165,11 +166,14 @@ input {
 .cardComponente .porcentajeNombre {
   width: 80%;
   background-color: #F1D777;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   border: 1px solid #1D1918;
   border-radius: 100px;
 }
 .cardComponente .cantidadComponente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 20%;
   text-align: center;
   background-color: #B9CAE8;
@@ -196,6 +200,41 @@ input {
   padding: 0.5rem;
   border: 1px solid #1D1918;
   border-radius: 100px;
+}
+
+.detallesComponente p {
+  font-size: 0.6rem;
+}
+
+.porcentajeNombre .datamateria {
+  font-size: 0.6rem;
+}
+
+.sugerencias {
+  position: absolute;
+  background-color: #F1D777;
+  border: 1px solid #1D1918;
+  border-radius: 16px;
+  max-height: 250px;
+  overflow-y: auto;
+  width: stretch;
+  z-index: 1000;
+  display: none;
+  margin-top: 2.5rem;
+}
+
+.sugerenciaItem {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sugerenciaItem:hover {
+  background-color: #B9CAE8;
+}
+
+.sugerenciaItem:active {
+  background-color: #ECE7DB;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -127,11 +127,14 @@ input {
     .porcentajeNombre {
         width: 80%;
         background-color: $yellow;
-        padding: 0.5rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
         border: 1px solid $black;
         border-radius: 100px;
     }
     .cantidadComponente {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 20%;
         text-align: center;
         background-color: $blue;
@@ -160,4 +163,45 @@ input {
         border-radius: 100px;
     }
 
+}
+
+.detallesComponente {
+    p {
+        font-size: 0.6rem;
+    }
+}
+.porcentajeNombre {
+    .datamateria {
+        font-size: 0.6rem;
+    }
+}
+
+
+// Sugerencias
+
+.sugerencias {
+    position: absolute;
+    background-color: $yellow;
+    border: 1px solid $black;
+    border-radius: 16px;
+    max-height: 250px;
+    overflow-y: auto;
+    width: stretch;
+    z-index: 1000;
+    display: none;
+    margin-top: 2.5rem;
+}
+
+.sugerenciaItem {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.sugerenciaItem:hover {
+    background-color: $blue;
+}
+
+.sugerenciaItem:active {
+    background-color: $bg2;
 }
